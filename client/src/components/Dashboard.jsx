@@ -10,7 +10,7 @@ import { useContract, useContractWrite, useContractRead, useAddress } from '@thi
 import { MissingGasInnerError } from "web3";
 
 const Dashboard = () => {
-  const { contract,isLoading } = useContract("0x386768EafD1dBa8Bee54998E60121DBd3A8B7B73"); //contract address
+  const { contract,isLoading } = useContract("0xf1725A52E1543c37e45DdB28d3cc63bbFC11875F"); //contract address
   const address = useAddress();
   console.log(address);
   const [msg, setMsg] = useState([]);
